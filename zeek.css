@@ -255,7 +255,7 @@ input:focus{
 }
 
 .img-fluid{
-	width: 50vw;
+	width: 100%;
 }
 
 .text-header-body-1{
