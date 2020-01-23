@@ -10,9 +10,14 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:regular,bold&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="zeek.css">
 
-    <title>Zeek - Discover great food</title>
+    <title>Zeek | Discover great food</title>
   </head>
   <body>
+
+  	<div id="navbar">
+  	  <h1 class="logo font-weight-normal logo-navbar">zeek</h1>
+  	</div>
+  	
 	<div class="page-header container-fluid">
 		<div class="row h-100 no-gutters">
 			<div class="header-left-side col-sm">
@@ -50,6 +55,7 @@
 
 	</div>
 
+
 	<div class="page-body-1 container-fluid">
 		<div class="row h-100 no-gutters">
 			<div class="body-1-left-side col-sm">
@@ -63,6 +69,8 @@
 			</div>
 		</div>
 	</div>
+
+	<nav class="navbar divider"></nav>
 
 
 	<div class="page-body-2 container-fluid">
@@ -79,6 +87,9 @@
 		</div>
 	</div>
 
+	<nav class="navbar divider"></nav>
+
+
 	<div class="page-body-1 container-fluid">
 		<div class="row h-100 no-gutters">
 			<div class="body-1-left-side col-sm">
@@ -93,6 +104,9 @@
 		</div>
 	</div>
 
+	<!-- <nav class="navbar divider"></nav> -->
+
+
 	<div class="footer-cta container-fluid d-flex flex-column">
 		<div class="textbox row h-100 no-gutters align-items-center">
 			<div class="body-footer col-sm d-flex flex-column align-items-center">
@@ -102,7 +116,7 @@
 				<h4 class="text-footer-text-1 text-center font-weight-normal">We dream of a world where people can easily discover
 				the food they love. If you share our vision, drop your email 
 				and let us know! We're opening early access soon, and 
-				would love to hear your feedback.</h4>
+				would love to hear your feedback. After all, this app is for food lovers like you.</h4>
 
 				<div class="sign-up-box-footer d-flex flex-row justify-content-center">
 					<input type="email" id="inputEmail" class="form-control, email-add" placeholder="Email address" required="True" >
@@ -119,5 +133,16 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+	    document.getElementById("navbar").style.top = "0";
+	  } else {
+	    document.getElementById("navbar").style.top = "-50%";
+	  }
+	}
+    </script>
   </body>
 </html>
