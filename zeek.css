@@ -293,12 +293,19 @@ input:focus{
 }
 
 .text-footer-header-2{
+	font-family: 'Montserrat', sans-serif;
 	color: #F40D30;
 	margin-top:2%;
 	margin-bottom:2%;
 }
 
+.text-footer-header-1{
+	font-family: 'Montserrat', sans-serif;
+	color: #333333;
+}
+
 .text-footer-text-1{
+	font-family: 'Open Sans', sans-serif;
 	padding-right: 25%;
 	padding-left: 25%;
 }
