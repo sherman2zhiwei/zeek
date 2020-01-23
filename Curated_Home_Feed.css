@@ -1,0 +1,123 @@
+.mediaViewInfo {
+	--web-view-name: Curated Home Feed;
+	--web-view-id: Curated_Home_Feed;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Curated_Home_Feed;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Curated_Home_Feed {
+	position: absolute;
+	transform: translateX(-50%);
+	left: 50%;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Curated Home Feed;
+	--web-view-id: Curated_Home_Feed;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+}
+#text_screen {
+	position: absolute;
+	width: 960px;
+	height: 1080px;
+	left: 960px;
+	top: 0px;
+	overflow: visible;
+}
+.shadow {
+	filter: drop-shadow(5px 0px 0px rgba(114, 114, 114, 0.09));
+	position: absolute;
+	overflow: visible;
+	width: 965px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+#Only__________that {
+	position: absolute;
+	left: 50px;
+	top: 344px;
+	overflow: visible;
+	width: 448px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 60px;
+	color: rgba(51,51,51,1);
+}
+#A_personalized_home_feed_that_ {
+	position: absolute;
+	left: 50px;
+	top: 452px;
+	overflow: visible;
+	width: 797px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	color: rgba(51,51,51,1);
+}
+#food {
+	position: absolute;
+	left: 210px;
+	top: 344px;
+	overflow: visible;
+	width: 144px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 60px;
+	color: rgba(244,13,48,1);
+}
+#you_like {
+	position: absolute;
+	left: 512px;
+	top: 344px;
+	overflow: visible;
+	width: 247px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 60px;
+	color: rgba(244,13,48,1);
+}
+#your_preferences {
+	position: absolute;
+	left: 50px;
+	top: 513px;
+	overflow: visible;
+	width: 360px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	color: rgba(244,13,48,1);
+}
+#malaysian_food__2_ {
+	position: absolute;
+	width: 960px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
