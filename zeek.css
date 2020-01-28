@@ -200,7 +200,7 @@
 }
 
 ::placeholder{
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 }
 
 input:focus{
@@ -276,7 +276,7 @@ input:focus{
 
 .footer-cta{
 	/*height: 100vh;*/
-	background-color: #620513;
+	background-color: #F40D30;
 }
 
 .text-footer-header-2{
@@ -300,37 +300,32 @@ input:focus{
 .sign-up-box-footer{
 	margin-top: 2%;
 	width: 50%;
-
 }
 
 .sign-up-button-footer{
-	/*background-color: #F40D30;*/
-	border: none;
-	flex-grow: 3;
-	/*color: white;*/
-	border-radius: 3px;
-	background-color: white;
-}
-
-/*
-.sign-up-button-footer:hover{
-	/*background-color: #f52545 !important;*/
-	outline-style: solid;
-	outline-color: #F7566E;
-}
-
-.sign-up-button-footer:active{
-	background-color: #F63D59 !important;
-	color: white;
-	outline-style: none;
-}
-
-.sign-up-button:focus{
-	border: none !important;
 	background-color: #F40D30;
-	/*box-shadow: 0 0 5px #92081d;*/
-	outline: 0;
-}*/
+	border: 1px solid white;
+	flex-grow: 3;
+	color: white;
+	border-radius: 3px;
+}
+
+
+.sign-up-button-footer:hover{
+	/*border: 2px solid white;*/
+/*	outline-style: solid;
+	outline-width: 2px;
+	outline-color: white;*/
+	box-shadow: 0 0 0 1px white;
+}
+
+.sign-up-button:active{
+	background-color: #f52545 !important;
+	border: none !important;
+	outline: none !important;
+}
+
+
 
 .text-about-text-1{
 	/*margin-top: 2%;*/
