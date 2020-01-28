@@ -157,7 +157,6 @@
 /* below is custom */
 
 .logo {
-	padding-top: 50;
 	font-family: 'Montserrat', sans-serif;
 	color: #F40D30 !important;
 }
@@ -167,7 +166,7 @@
 }
 
 .header-left-side{
-	padding-top: 2% !important;
+	/*padding-top: 2% !important;*/
 	padding-left: 2% !important;
 }
 
@@ -175,14 +174,13 @@
 	font-family: 'Montserrat', sans-serif;
 	color: #333333 !important;
 	font-weight: bold !important;
-	margin-top: 20%;
 }
 
 .text-body{
 	font-family: 'Open Sans', sans-serif;
 	color: #333333 !important;
 	font-weight: normal;
-	margin-top: 2%;
+	/*margin-top: 2%;*/
 }
 
 .cta-text{
@@ -192,25 +190,17 @@
 	margin-top: 4%;
 }
 
-.sign-up-box {
-	flex-direction: row;
-	margin-top: 4%;
-	margin-right: 4%;
-}
-
 .email-add{
 	background-color: #C8C8C8;
 	color: #666666;
-	padding-left: 4%;
-	padding-top: 2%;
-	padding-bottom: 2%;
+	/*padding-top: 2%;*/
+	/*padding-bottom: 2%;*/
 	border-radius: 3px;
 	flex-grow: 6;
-	margin-right: 2%;
 }
 
 ::placeholder{
-	font-size: 1rem;
+	font-size: 0.8rem;
 }
 
 input:focus{
@@ -221,7 +211,6 @@ input:focus{
 	background-color: #F40D30;
 	border: none;
 	flex-grow: 3;
-	margin-right: 10%;
 	color: white;
 	border-radius: 3px;
 /*	padding-left: 10%;
@@ -252,17 +241,17 @@ input:focus{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold !important;
 	margin: 0;
+	/*font-size: 0.8rem;*/
 }
 
-.img-fluid{
-	width: 100%;
+.sign-up-text-footer{
+	color: #F63D59;
 }
 
 .text-header-body-1{
 	font-family: 'Montserrat', sans-serif;
 	color: #333333 !important;
 	font-weight: bold !important;
-	margin-top: 30%;
 }
 
 .text-description-body-1{
@@ -284,12 +273,10 @@ input:focus{
 	padding-right: 1% !important;
 }
 
-.img-fluid{
-	height: 100vh;
-}
 
 .footer-cta{
-	height: 100vh;
+	/*height: 100vh;*/
+	background-color: #620513;
 }
 
 .text-footer-header-2{
@@ -301,7 +288,7 @@ input:focus{
 
 .text-footer-header-1{
 	font-family: 'Montserrat', sans-serif;
-	color: #333333;
+	color: #ffffff;
 }
 
 .text-footer-text-1{
@@ -317,22 +304,43 @@ input:focus{
 }
 
 .sign-up-button-footer{
-	margin: 0;
-	padding-top: 2%;
-	padding-bottom: 2%;
-
+	/*background-color: #F40D30;*/
+	border: none;
+	flex-grow: 3;
+	/*color: white;*/
+	border-radius: 3px;
+	background-color: white;
 }
+
+/*
+.sign-up-button-footer:hover{
+	/*background-color: #f52545 !important;*/
+	outline-style: solid;
+	outline-color: #F7566E;
+}
+
+.sign-up-button-footer:active{
+	background-color: #F63D59 !important;
+	color: white;
+	outline-style: none;
+}
+
+.sign-up-button:focus{
+	border: none !important;
+	background-color: #F40D30;
+	/*box-shadow: 0 0 5px #92081d;*/
+	outline: 0;
+}*/
 
 .text-about-text-1{
-	padding-left: 25%;
-	padding-right: 25%;
-	margin-top: 2%;
+	/*margin-top: 2%;*/
+	font-family: Open Sans;
 }
 
-.text-about-header-2{
+/*.text-about-header-2{
 	margin-top: 8%;
 }
-
+*/
 .divider{
 	background-color: #F40D30;
 	height: 10vh;
@@ -348,9 +356,13 @@ input:focus{
 	box-shadow: 0px 1px 10px #d3d3d3;
 }
 
-.logo-navbar{
+/*.logo-navbar{
 	margin-left: 2%;
 	margin-top: 1%;
 	margin-bottom: 1%;
 
+}*/
+
+.header-cafe{
+	margin-top: 5%;
 }
