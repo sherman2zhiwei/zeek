@@ -382,3 +382,7 @@ h4 {
 .red-color{
 	color: #F40D30 !important;
 }
+
+.feature-img{
+	box-shadow: 4px 4px 10px #757575;
+}
