@@ -361,3 +361,7 @@ input:focus{
 .header-cafe{
 	margin-top: 5%;
 }
+
+h4 {
+	/*text-align: justify-all;*/
+}
