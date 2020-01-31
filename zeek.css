@@ -391,3 +391,12 @@ h4 {
 .feature-img{
 	box-shadow: 4px 4px 10px #757575;
 }
+
+.email-icon{
+	color : #333333;
+}
+
+.email-icon:hover{
+	color: #1e90ff;
+	text-decoration: none;
+}
