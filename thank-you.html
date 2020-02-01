@@ -21,6 +21,23 @@
     <link rel="stylesheet" type="text/css" href="zeek.css">
 
     <script src="https://kit.fontawesome.com/597945ef9e.js" crossorigin="anonymous"></script>
+    <script>
+    	function myFunction() {
+    	  /* Get the text field */
+    	  var copyText = document.getElementById("myInput");
+
+    	  /* Select the text field */
+    	  copyText.select();
+    	  copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+    	  /* Copy the text inside the text field */
+    	  document.execCommand("copy");
+
+    	  /* Alert the copied text */
+    	  alert("Copied the text: " + copyText.value);
+    	}
+  	</script>
+
 
 
     <title>Thank you - Zeek | Discover great food</title>
@@ -39,7 +56,7 @@
 
       <div class="row h-100 no-gutters justify-content-center">
         <!-- <div class="col-4"></div> -->
-        <p class="text-about-text-1 font-weight-normal ml-4 mr-4 text-center col-8">At Zeek, we're working to create a world where people can easily discover food that they love. Knowing that you share our vision means a lot to us. If you think your friends and family should know about us, please support us by <strong>sharing</strong> with the buttons below :</p>
+        <p class="text-about-text-1 font-weight-normal ml-4 mr-4 text-center col-8">At Zeek, we're working to create a world where people can easily discover food that they love. Knowing that you share our vision means a lot to us. If you think your friends and family should know about us, please support us by <strong>sharing</strong>!</p>
         <!-- <div class="col-4"></div> -->
       </div>
 
@@ -52,6 +69,17 @@
           <a href="mailto:info@example.com?&subject=&body=My friend is making an app that helps you decide what to eat! Check it out : https://sherman2zhiwei.github.io/zeek/" class="fas email-icon fa-envelope fa-2x p-3"></a>
           <!-- <a href="#" class="fab fa-instagram fa-2x p-3"></a> -->
         </div>
+      </div>
+
+      <div class="row h-100 no-gutters d-flex flex-column justify-content-center align-items-center">
+        <!-- <div class="col-4"></div> -->
+        <p class="text-about-text-1 font-weight-normal ml-4 mr-4 text-center col-8">You can also share the message we prepared for you below!</p>
+
+         <!-- The text field -->
+        <input type="text" value="My friend is developing an app that helps you decide what to eat! Check it out : https://sherman2zhiwei.github.io/zeek/" id="myInput">
+
+        <!-- The button used to copy the text -->
+        <button onclick="myFunction()">Copy text</button>         <!-- <div class="col-4"></div> -->
       </div>
 
   </body>
