@@ -404,3 +404,8 @@ h4 {
 .thank-you-body{
 	height: 100vh;
 }
+
+.manual-sharing{
+	background-color: #eeeef0;
+	font-family: Roboto Mono, monospace;
+}
