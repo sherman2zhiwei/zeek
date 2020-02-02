@@ -27,23 +27,6 @@
   	  }
   	</script>
 
-  	<script>
-  	/**
-  	* Function that registers a click on an outbound link in Analytics.
-  	* This function takes a valid URL string as an argument, and uses that URL string
-  	* as the event label. Setting the transport method to 'beacon' lets the hit be sent
-  	* using 'navigator.sendBeacon' in browser that support it.
-  	*/
-  	var getOutboundLink = function(url) {
-  	  gtag('event', 'click', {
-  	    'event_category': 'outbound',
-  	    'event_label': url,
-  	    'transport_type': 'beacon',
-  	    'event_callback': function(){document.location = url;}
-  	  });
-  	}
-  	</script>
-
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -64,7 +47,7 @@
   	<div id="navbar">
   	  <h1 class="logo font-weight-normal ml-4">zeek</h1>
   	  <div class="float-right d-flex flex-row align-items-start mr-2">
-  	  	<a href="https://www.facebook.com/sharer/sharer.php?u=https://sherman2zhiwei.github.io/zeek/" target="_blank" onclick="getOutboundLink('https://www.facebook.com/sharer/sharer.php?u=https://sherman2zhiwei.github.io/zeek/'); return false;" class="fab fa-facebook fa-2x mt-2 px-2"></a>
+  	  	<a href="https://www.facebook.com/sharer/sharer.php?u=https://sherman2zhiwei.github.io/zeek/" target="_blank" onclick="shareFB" class="fab fa-facebook fa-2x mt-2 px-2"></a>
   	  	<!-- <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fsherman2zhiwei.github.io%2Fzeek-landing-page%2F&text=My%20friend%20is%20creating%20an%20app%20to%20help%20you%20decide%20what%20to%20eat%21%20Do%20check%20it%20out%20@" class="fab fa-twitter fa-2x mt-2 px-2"></a> -->
   	  	<a href="https://twitter.com/home?status=My friend is making an app that helps you decide what to eat! Check it out: https://sherman2zhiwei.github.io/zeek/" onclick="shareTwitter" target="_blank" class="fab fa-twitter fa-2x mt-2 px-2"></a>
   	  	<!-- <a href="whatsapp://send?text=Found this app that helps you decide what to eat and discover new food! Check it out : https://sherman2zhiwei.github.io/zeek-landing-page/" data-action="share/whatsapp/share" target="_blank">וואטסאפ</a> -->
