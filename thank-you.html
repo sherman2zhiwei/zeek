@@ -20,6 +20,11 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:regular,bold&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="zeek.css">
 
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/597945ef9e.js" crossorigin="anonymous"></script>
     <script>
     	function myFunction() {
@@ -56,8 +61,8 @@
   	  	gtag('event', 'share', {method : 'Whatsapp' });
   	  }
   	</script>
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 
     <title>Thank you - Zeek | Discover great food</title>
   </head>
@@ -96,12 +101,23 @@
 
          <!-- The text field -->
         <!-- <input type="text" value="My friend is developing an app that helps you decide what to eat! Check it out : https://sherman2zhiwei.github.io/zeek/" id="myInput"> -->
-        <div class="col-4 manual-sharing p-4" id="share-div">
-        	My friend is developing an app that helps you decide what to eat! Check it out : <a href="https://sherman2zhiwei.github.io/zeek/" target="_blank">https://sherman2zhiwei.github.io/zeek/</a>
-        </div>
+        <div class="col-md-8 col-lg-4 manual-sharing p-4" id="share-div">My friend is developing an app that helps you decide what to eat! Check it out : <a href="https://sherman2zhiwei.github.io/zeek/" target="_blank">https://sherman2zhiwei.github.io/zeek/</a></div>
+
+        <button class="btn btn-danger mt-2" data-toggle="tooltip" data-trigger="click" data-placement="bottom" title="Copied!" data-clipboard-target=".manual-sharing">
+            Copy
+        </button>
 
         <p class="mt-2">Thank you for your support, and we'll be updating you very soon!</p>
       </div>
+
+      <script>
+        var clipboard = new ClipboardJS('.btn');
+        $('.btn').tooltip()
+
+        clipboard.on('success', function(e) {
+          setTimeout(function(){$('.btn').tooltip("hide")}, 2000);
+        });
+      </script>
 
   </body>
 </html>
