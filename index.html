@@ -36,6 +36,10 @@
   	  function shareWhatsapp() {
   	  	gtag('event', 'share', {method : 'Whatsapp' });
   	  }
+
+  	  function goGooglePlay() {
+  	  	gtag('event', 'google-play');
+  	  }
   	</script>
 
     <!-- Required meta tags -->
@@ -106,7 +110,7 @@
 					<p class="text-about-text-1 font-weight-normal pl-2">Zeek is a food recommendation system, connecting you with the food you love, and allowing you to share your favourite food places to the world.</p>
 					<!-- <p class="text-about-text-1 font-weight-normal pl-2">We're under construction.</p> -->
 					<h4 class="cta-text pl-2 font-weight-bold">Try our Beta Test :</h4>
-					<a href="https://play.google.com/apps/testing/com.zeek.ti_frontend_flutter" target="_blank">
+					<a href="https://play.google.com/apps/testing/com.zeek.ti_frontend_flutter" onclick="goGooglePlay" target="_blank">
 						<img src="./google-play-badge.png" width="200" alt="Get it on Google Play">
 					</a>
 					<h4 class="cta-text pl-2 mt-2 red-color font-weight-bold">Sign Up: Be the First to Get Future Updates!</h4>
@@ -213,7 +217,7 @@
 			<div class="body-footer col-sm-6 d-flex flex-column mt-5 mb-5">
 				<h2 class="text-footer-header-1 text-center font-weight-bold">Try Our Beta Test!</h2>
 				<div class="text-center">
-					<a href="https://play.google.com/apps/testing/com.zeek.ti_frontend_flutter" target="_blank">
+					<a href="https://play.google.com/apps/testing/com.zeek.ti_frontend_flutter" onclick="goGooglePlay" target="_blank">
 						<img src="./google-play-badge.png" width="200" alt="Get it on Google Play">
 					</a>
 				</div>
