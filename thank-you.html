@@ -98,7 +98,7 @@
   	<div class="page-header container-fluid">
   		<div class="row h-100 no-gutters pl-2 pr-3 justify-content-center">
   			<div class="logo ml-2 mt-2">
-  				<h1 class="logo font-weight-normal pl-2 pb-2">zeek</h1>
+  				<h1 class="logo pl-2 pb-2">zeek</h1>
   			</div>
   		</div>
 
@@ -108,19 +108,19 @@
 
       <div class="row h-100 no-gutters justify-content-center">
         <!-- <div class="col-4"></div> -->
-        <p class="text-about-text-1 mb-4 font-weight-normal font-italic ml-2 mr-2 text-center col-4">You've been added to the early access waitlist, and you will be contacted as soon as you're in!</p>
-        <p class="text-about-text-1 font-weight-normal ml-2 mr-2 text-center col-8">
-        	At Zeek, we're working to create a world where people can easily discover food that they love. Knowing that you share our vision means a lot to us. If you like what we're doing, please support us by <strong>sharing</strong> to friends and family with these buttons:</p>
+        <p class="text-about-text-1 early-access mb-4 font-weight-normal font-italic ml-2 mr-2 text-center col-4">You've been added to the early access waitlist, and you will be contacted as soon as you're in!</p>
+        <p class="text-about-text-1 font-weight-normal mt-2 ml-2 mr-2 text-center col-8">
+If you like our idea, please support us by <strong>sharing</strong> Zeek to friends and family with these buttons:</p>
         <!-- <div class="col-4"></div> -->
       </div>
 
-      <div class="row h-100 no-gutters justify-content-center">
+      <div class="row h-100 no-gutters justify-content-center mb-4">
         <div class="footer-share d-flex flex-row justify-content-end">
-          <a href="https://www.facebook.com/sharer/sharer.php?u=https://sherman2zhiwei.github.io/zeek/" class="fab fa-facebook fa-2x p-3" onclick="shareFB" target="_blank"></a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://sherman2zhiwei.github.io/zeek/" class="fab fa-facebook fa-2x p-3" onclick="shareFB()" target="_blank"></a>
           <!-- <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fsherman2zhiwei.github.io%2Fzeek-landing-page%2F&text=My%20friend%20is%20creating%20an%20app%20to%20help%20you%20decide%20what%20to%20eat%21%20Do%20check%20it%20out%20@" class="fab fa-twitter fa-2x p-3"></a> -->
-          <a href="https://twitter.com/intent/tweet?url=&text=Hey!%20My%20friend%20is%20developing%20an%20app%20that%20helps%20you%20discover%20great%20food.%20I%20really%20like%20the%20idea%20cause%20I%20always%20have%20trouble%20finding%20good%20food%20to%20eat.%20Do%20check%20it%20out%20and%20sign%20up%20if%20you%20support%20it%20too%20%3A%20https%3A%2F%2Fsherman2zhiwei.github.io%2Fzeek%2F" class="fab fa-twitter fa-2x p-3" target="_blank" onclick="shareTwitter"></a>
-          <a href="whatsapp://send?text=Hey! My friend is developing an app that helps you discover great food. I really like the idea cause I always have trouble finding good food to eat. Do check it out and sign up if you support it too : https://sherman2zhiwei.github.io/zeek/" data-action="share/whatsapp/share" target="_blank" class="fab fa-whatsapp fa-2x p-3 d-block d-sm-none" onclick="shareWhatsapp"></a>
-          <a href="mailto:info@example.com?&subject=&body=Hey! My friend is developing an app that helps you discover great food. I really like the idea cause I always have trouble finding good food to eat. Do check it out and sign up if you support it too : https://sherman2zhiwei.github.io/zeek/" class="fas email-icon fa-envelope fa-2x p-3" onclick="shareEmail"></a>
+          <a href="https://twitter.com/intent/tweet?url=&text=Hey!%20My%20friend%20is%20developing%20an%20app%20that%20helps%20you%20discover%20great%20food.%20I%20really%20like%20the%20idea%20cause%20I%20always%20have%20trouble%20finding%20good%20food%20to%20eat.%20Do%20check%20it%20out%20and%20sign%20up%20if%20you%20support%20it%20too%20%3A%20https%3A%2F%2Fsherman2zhiwei.github.io%2Fzeek%2F" class="fab fa-twitter fa-2x p-3" target="_blank" onclick="shareTwitter()"></a>
+          <a href="whatsapp://send?text=Hey! My friend is developing an app that helps you discover great food. I really like the idea cause I always have trouble finding good food to eat. Do check it out and sign up if you support it too : https://sherman2zhiwei.github.io/zeek/" data-action="share/whatsapp/share" target="_blank" class="fab fa-whatsapp fa-2x p-3 d-block d-sm-none" onclick="shareWhatsapp()"></a>
+          <a href="mailto:info@example.com?&subject=&body=Hey! My friend is developing an app that helps you discover great food. I really like the idea cause I always have trouble finding good food to eat. Do check it out and sign up if you support it too : https://sherman2zhiwei.github.io/zeek/" class="fas email-icon fa-envelope fa-2x p-3" onclick="shareEmail()"></a>
           <!-- <a href="#" class="fab fa-instagram fa-2x p-3"></a> -->
         </div>
       </div>
@@ -131,13 +131,13 @@
 
          <!-- The text field -->
         <!-- <input type="text" value="My friend is developing an app that helps you decide what to eat! Check it out : https://sherman2zhiwei.github.io/zeek/" id="myInput"> -->
-        <div class="col-xs-8 col-lg-4 manual-sharing p-4" id="share-div">Hey! My friend is developing an app that helps you discover great food. I really like the idea cause I always have trouble finding good food to eat. Do check it out and sign up if you support it too : <a href="https://sherman2zhiwei.github.io/zeek/" target="_blank">https://sherman2zhiwei.github.io/zeek/</a></div>
+        <div class="col-xs-8 col-lg-4 manual-sharing p-4" id="share-div">I found an app that helps you discover great food! Check it out at: <a href="https://sherman2zhiwei.github.io/zeek/" target="_blank">https://sherman2zhiwei.github.io/zeek/</a></div>
 
         <button class="btn btn-danger mt-2" data-toggle="tooltip" data-trigger="click" data-placement="bottom" title="Copied!" data-clipboard-target=".manual-sharing">
             Copy
         </button>
 
-        <p class="text-about-text-1 mt-2 col-8 text-center ml-4 mr-4">Thank you for your support, and we'll be updating you very soon!</p>
+        <p class="text-about-text-1 mt-4 col-8 text-center ml-4 mr-4">Thank you for your support, and we'll be updating you very soon!</p>
       </div>
 
       <script>
