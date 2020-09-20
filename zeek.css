@@ -166,7 +166,7 @@
 	/*color: #F40D30 !important;*/
 	color: #F40D30 !important;
 	font-weight: bold;
-	font-size: 45px;
+	font-size: 2.5rem;
 }
 
 .container-fluid{
@@ -179,11 +179,11 @@ body {
 }
 
 h1 {
-	font-size: 50px;
+	font-size: 3rem;
 }
 
 h2{
-	font-size: 40px;
+	font-size: 2rem;
 }
 
 
@@ -198,9 +198,6 @@ h3 {
 }
 
 
-.header-right-side{
-	height: 90vh;
-}
 
 .text-header{
 	font-family: 'Montserrat', sans-serif;
@@ -278,7 +275,8 @@ input:focus{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold !important;
 	margin: 0;
-	/*font-size: 0.8rem;*/
+	font-size: 1rem;
+	white-space: nowrap;
 }
 
 .sign-up-text-footer{
@@ -309,6 +307,14 @@ input:focus{
 	padding-top: 2% !important;
 	padding-left: 2% !important;
 	padding-right: 1% !important;
+}
+
+body, html{
+	box-sizing: border-box;
+}
+
+* {
+	box-sizing: inherit;
 }
 
 
@@ -378,7 +384,7 @@ input:focus{
 	/*margin-top: 2%;*/
 	color: #EFF1ED;
 	font-family: Open Sans;
-	font-size: 20px;
+	font-size: 1rem;
 }
 
 
@@ -412,14 +418,9 @@ input:focus{
 
 }*/
 
-.header-cafe{
-	/*margin-top: 5%;*/
-	height: 90vh;
-	max-width: 100%
-}
-
 .page-header{
 	background-color: #1E1922;
+
 }
 
 h4 {
