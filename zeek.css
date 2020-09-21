@@ -19,6 +19,10 @@
 	color: #AD748E !important;
 }
 
+.form-inline{
+	width: 90%;
+}
+
 #Call_to_Action {
 	position: absolute;
 	transform: translateX(-50%);
@@ -238,9 +242,10 @@ input:focus{
 .sign-up-button{
 	background-color: #F40D30;
 	border: none;
-	flex-grow: 1;
+	/*flex-grow: 1;*/
 	color: white;
 	border-radius: 3px;
+	/*max-width: 80%*/
 /*	padding-left: 10%;
 	padding-right: 10%;*/
 }
@@ -311,6 +316,16 @@ input:focus{
 
 body, html{
 	box-sizing: border-box;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+a:hover{
+	text-decoration: none;
+	color: inherit;	
 }
 
 * {
@@ -425,6 +440,10 @@ body, html{
 
 h4 {
 	/*text-align: justify-all;*/
+}
+
+.solution{
+	width: 100%;
 }
 
 
