@@ -1,5 +1,11 @@
 @media (max-width: 575.98px) {
-	
+	.body-2-right-side {
+		align-items: center !important;
+	}
+
+	.body-1-left-side {
+		align-items: center !important;
+	}
 }
 
 
