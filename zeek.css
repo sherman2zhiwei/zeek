@@ -6,6 +6,14 @@
 	.body-1-left-side {
 		align-items: center !important;
 	}
+
+	.page-body-2 {
+		text-align: center;
+	}
+
+	.page-body-1 {
+		text-align: center;
+	}
 }
 
 
@@ -20,6 +28,7 @@
 :root {
 	--web-view-ids: Call_to_Action;
 }
+
 * {
 	margin: 0;
 	padding: 0;
@@ -318,6 +327,7 @@ input:focus{
 	padding-top: 2% !important;
 	padding-left: 2% !important;
 	padding-right: 1% !important;
+	padding-bottom: 2% !important;
 }
 
 .body-2-left-side{
